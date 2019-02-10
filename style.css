@@ -1,0 +1,68 @@
+.blok-of-day {
+	text-align: center;
+	background-color: white;
+}
+
+.date-of-day {
+	font-size: 1.5em;
+}
+
+.icon {
+	height: 70px;
+	width: 70px;
+}
+
+.main-header {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.table {
+	background-color: whitesmoke;
+	left: 50%;
+	margin: 0;
+	padding: 10px 10px 0 10px;
+	position: absolute; 
+  	top: 50%; 
+  	transform: translate(-50%, -50%);
+}
+
+.temperature-day {
+	font-size: 1.2em;
+}
+
+.temperature-night {
+	font-size: 0.8em;
+}
+
+.temperature-today {
+	font-size: 2em;
+}
+
+.weather {
+	font-size: 1.3em;
+}
+
+.wind {
+	font-size: 0.75em;
+}
+
+h1 {
+	margin: 0;
+  transform: translate(-50%, -50%);
+  position: absolute; 
+  top: 20%; 
+  left: 50%;
+}
+
+li {
+	list-style: none;
+}
+
+td {
+	padding: 5px 10px;
+}
+
+ul {
+	padding: 10px;
+}
