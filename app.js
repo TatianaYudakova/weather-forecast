@@ -160,8 +160,10 @@ function findNewDate(json) {
 	let date2;
 	while(true) {
 		date2 = new Date(json.list[i].dt * 1000);
-		if (date1 < date2) {
-			break;
+		if (date1.getUTCDate() < date2.getUTCDate()) {
+			if (date2.getUTCDate() != 1) {
+				break;
+			}
 		}
 		i++;
 	}
