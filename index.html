@@ -1,41 +1,29 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Прогноз погоды в Самаре 499099</title>
+		<title>Прогноз погоды в Самаре</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="app.js"></script>
 	</head>
 	<body>
-		<div class="main-header">
-			<h1>Прогноз погоды</h1>
+		<div class="main-header" style="text-align: center;">
+			<h1>Прогноз погоды в Самаре</h1>
 		</div>
-		<table id="table" class="table">
-			<tr>
-				<td>
-					<div class="blok-of-day">
-						<ul>
-						</ul>
-					</div>
-				</td>
-				<td>
-					<div class="blok-of-day">
-						<ul>
-						</ul>
-					</div>
-				</td>
-				<td>
-					<div class="blok-of-day">
-						<ul>
-						</ul>
-					</div>
-				</td>
-				<td>
-					<div class="blok-of-day">
-						<ul>
-						</ul>
-					</div>
-				</td>
-			</tr>
-		</table>
+		<div id="main-body">
+			<div class="block">
+				<button id="left-button" onclick="changeButtons(this.id)">
+					<img src="left.png" alt="left" class="arrow">
+				</button>
+			</div>
+			<div class="block">
+				<table id="table" class="table">
+				</table>
+			</div>
+			<div class="block">
+				<button id="right-button" onclick="changeButtons(this.id)">
+					<img src="right.png" alt="left" class="arrow">
+				</button>
+			</div>
+		</div>
+		<script src="app.js"></script>
 	</body>
 </html>

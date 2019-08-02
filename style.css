@@ -1,4 +1,28 @@
-.blok-of-day {
+#main-body {
+	text-align: center;
+	height: 300px;
+}
+
+.active-button {
+	opacity: 0.75;
+}
+
+.active-button:hover {
+	background-color: #FFFAFA;
+}
+
+.arrow {
+	height: 200px; 
+	width: 120px;  
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.block {
+	display: inline-block;
+}
+
+.bloсk-of-day {
 	text-align: center;
 	background-color: white;
 }
@@ -7,24 +31,13 @@
 	font-size: 1.5em;
 }
 
+.disabled-button {
+	opacity: 0.5;
+}
+
 .icon {
 	height: 70px;
 	width: 70px;
-}
-
-.main-header {
-	text-align: center;
-	margin: 10px 0;
-}
-
-.table {
-	background-color: whitesmoke;
-	left: 50%;
-	margin: 0;
-	padding: 10px 10px 0 10px;
-	position: absolute; 
-  	top: 50%; 
-  	transform: translate(-50%, -50%);
 }
 
 .temperature-day {
@@ -47,12 +60,14 @@
 	font-size: 0.75em;
 }
 
-h1 {
-	margin: 0;
-  transform: translate(-50%, -50%);
-  position: absolute; 
-  top: 20%; 
-  left: 50%;
+button {
+	background-color: transparent; 
+	border: none;
+	cursor: pointer;
+}
+
+button:active, button:focus {
+  outline: none;
 }
 
 li {
